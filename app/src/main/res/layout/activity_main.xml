@@ -7,7 +7,6 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -37,13 +36,14 @@
         app:layout_constraintVertical_bias="0.218" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/numero_2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:background="#3F51B5"
         android:ems="10"
+        android:gravity="right"
         android:inputType="number"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
@@ -56,13 +56,14 @@
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/numero_1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:background="#3F51B5"
         android:ems="10"
+        android:gravity="right"
         android:inputType="number"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
@@ -81,6 +82,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:backgroundTint="#FFC107"
+        android:onClick="suma"
         android:text="Suma"
         android:textColor="#000000"
         android:textSize="24sp"
@@ -99,6 +101,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:backgroundTint="#FFC107"
+        android:onClick="resta"
         android:text="Resta"
         android:textColor="#000000"
         android:textSize="24sp"
@@ -116,6 +119,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:backgroundTint="#FFC107"
+        android:onClick="division"
         android:text="División"
         android:textColor="#000000"
         android:textSize="24sp"
@@ -133,6 +137,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:backgroundTint="#FFC107"
+        android:onClick="multiplicaion"
         android:text="Multiplicación"
         android:textColor="#000000"
         android:textSize="24sp"
